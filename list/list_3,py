@@ -1,0 +1,15 @@
+'''Nested lists are useful for representing 2D data, such as:
+
+Matrices / Tables
+
+Grids (like chessboard, tic-tac-toe)
+
+Rows and columns of data
+'''
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+print(matrix[1][2])  # 6 (row 2, column 3)
